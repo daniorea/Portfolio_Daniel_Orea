@@ -384,162 +384,162 @@ html {
 
 
 /* *********************/
-        /* seccion P O R T F O L I O */
-        /* *********************/
-        
-        #portfolio {
-            max-width: 1000px;
-            padding: 100px 0;
-            margin: auto;
-        }
-        
-        #portfolio .titulo-seccion {
-            text-align: center;
-            font-size: 22px;
-            text-transform: uppercase;
-            color: #111135;
-            text-decoration: underline;
-            text-decoration-color: #d3d3d3;
-            text-decoration-thickness: 5px;
-        }
-        
-        #portfolio .fila {
-            display: flex;
-            justify-content: space-between;
-            margin: 40px 0;
-        }
-        
-        #portfolio .fila .proyecto {
-            max-width: 450px;
-            border: 1px solid #000;
-            margin: 0 10px;
-            position: relative;
-        }
-        
-        #portfolio .fila .proyecto img {
-            width: 100%;
-            height: 100%;
-            filter: grayscale(1);
-            transition: .5s;
-        }
-        
-        #portfolio .fila .proyecto:hover img {
-            filter: grayscale(0);
-        }
-        
-        #portfolio .fila .proyecto .info {
-            position: absolute;
-            left: 0px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #ff5080;
-            width: 100%;
-            padding: 10px;
-            opacity: 0;
-            bottom: 0px;
-            transition: .5s;
-        }
-        
-        #portfolio .fila .proyecto:hover .info {
-            opacity: 1;
-        }
-        #portfolio .fila .proyecto .info a{
-            text-decoration: none;
-            color: #ff5080;
-        }
+/* seccion P O R T F O L I O */
+/* *********************/
+
+#portfolio {
+    max-width: 1000px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+#portfolio .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#portfolio .fila {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    border: 1px solid #000;
+    margin: 0 10px;
+    position: relative;
+}
+
+#portfolio .fila .proyecto img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+#portfolio .fila .proyecto:hover img {
+    filter: grayscale(0);
+}
+
+#portfolio .fila .proyecto .info {
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: 0px;
+    transition: .5s;
+}
+
+#portfolio .fila .proyecto:hover .info {
+    opacity: 1;
+}
+#portfolio .fila .proyecto .info a{
+    text-decoration: none;
+    color: #ff5080;
+}
 
 
 
-        /* *********************/
-        /* seccion C O N T A C T O */
-        /* *********************/
-        
-        #contacto {
-            padding: 100px 15px;
-            background-color: #f3f3f3;
-        }
-        
-        #contacto .titulo-contacto {
-            margin-bottom: 20px;
-        }
-        
-        #contacto .contenedor-formulario {
-            max-width: 1100px;
-            margin: auto;
-        }
-        
-        #contacto .contenedor-formulario .fila {
-            margin-bottom: 15px;
-        }
-        
-        #contacto .contenedor-formulario .mitad {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #contacto .contenedor-formulario input,
-        #contacto .contenedor-formulario textarea {
-            padding: 20px;
-            border-radius: 20px;
-            border: 1px solid #919191;
-        }
-        
-        #contacto .contenedor-formulario .mitad input {
-            width: 48%;
-        }
-        
-        #contacto .contenedor-formulario .input-full {
-            width: 100%;
-        }
-        
-        #contacto .titulo-contacto {
-            text-align: center;
-            font-size: 22px;
-            text-transform: uppercase;
-            color: #111135;
-            text-decoration: underline;
-            text-decoration-color: #d3d3d3;
-            text-decoration-thickness: 5px;
-        }
-        
-        #contacto .btn-enviar {
-            display: block;
-            margin: auto;
-            cursor: pointer;
-            transition: .5s;
-            padding: 10px 15px;
-        }
-        
-        #contacto .btn-enviar:hover {
-            background-color: #ff5080;
-            color: #fff;
-        }
+/* *********************/
+/* seccion C O N T A C T O */
+/* *********************/
+
+#contacto {
+    padding: 100px 15px;
+    background-color: #f3f3f3;
+}
+
+#contacto .titulo-contacto {
+    margin-bottom: 20px;
+}
+
+#contacto .contenedor-formulario {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contacto .contenedor-formulario .fila {
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-formulario .mitad {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-formulario input,
+#contacto .contenedor-formulario textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #919191;
+}
+
+#contacto .contenedor-formulario .mitad input {
+    width: 48%;
+}
+
+#contacto .contenedor-formulario .input-full {
+    width: 100%;
+}
+
+#contacto .titulo-contacto {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+}
+
+#contacto .btn-enviar:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
 
 
 
-        /* *********************/
-        /* seccion F O O T E R */
-        /* *********************/
-        
-        #footer {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
-        .redes-footer{
-            display: flex;
-            justify-content: center;
-        }
-        #footer a {
-            text-decoration: none;
-            color: #fff;
-            margin: 5px;
-            font-size: 26px;
-            transition: .5s;
-        }
-        #footer a:hover{
-            color: #ff5080;
-        }
+/* *********************/
+/* seccion F O O T E R */
+/* *********************/
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.redes-footer{
+    display: flex;
+    justify-content: center;
+}
+#footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    font-size: 26px;
+    transition: .5s;
+}
+#footer a:hover{
+    color: #ff5080;
+}
 
 
 /* *********************/
