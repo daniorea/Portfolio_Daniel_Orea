@@ -21,7 +21,7 @@ En la sección "Inicio", utilicé una imagen de fondo con un gradiente para darl
 
 
 Sección Sobre Mi:
-En la sección "Sobre Mi", incluí una foto de mí misma junto con una descripción de quién soy y lo que hago. Esta sección también incluye detalles sobre mi educación y experiencia laboral.
+En la sección "Sobre Mi", incluí una foto junto con una descripción de quién soy y lo que hago. Esta sección también incluye detalles sobre mi educación y experiencia laboral.
 
 
 
