@@ -446,6 +446,73 @@ html {
         }
 
 
+
+        /* *********************/
+        /* seccion C O N T A C T O */
+        /* *********************/
+        
+        #contacto {
+            padding: 100px 15px;
+            background-color: #f3f3f3;
+        }
+        
+        #contacto .titulo-contacto {
+            margin-bottom: 20px;
+        }
+        
+        #contacto .contenedor-formulario {
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        #contacto .contenedor-formulario .fila {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-formulario .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-formulario input,
+        #contacto .contenedor-formulario textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid #919191;
+        }
+        
+        #contacto .contenedor-formulario .mitad input {
+            width: 48%;
+        }
+        
+        #contacto .contenedor-formulario .input-full {
+            width: 100%;
+        }
+        
+        #contacto .titulo-contacto {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: #ff5080;
+            color: #fff;
+        }
+
+
 /* *********************/
         /* seccion R E S P O N S I V E */
         /* *********************/
@@ -527,6 +594,20 @@ html {
             }
             #portfolio .fila .proyecto {
                 margin: 35px auto;
+            }
+
+
+            /* seccion CONTACTO */
+            #contacto {
+                padding: 50px 15px;
+            }
+            #contacto .contenedor-formulario .mitad {
+                margin-bottom: 15px;
+                display: block;
+            }
+            #contacto .contenedor-formulario .mitad input {
+                width: 100%;
+                margin-bottom: 15px;
             }
         }
 
