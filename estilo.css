@@ -245,6 +245,9 @@ html {
  }
  
  #servicios .fila .servicio {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      max-width: 350px;
      background-color: #fff;
      padding: 30px;
@@ -258,7 +261,6 @@ html {
  }
  
  #servicios .fila .servicio .icono {
-     display: inline-block;
      width: 60px;
      height: 60px;
      border-radius: 50%;
